@@ -12,8 +12,11 @@ The business objective of this project is to classify patient reviews related to
 * UsefulCount (numerical): The number of users who found the review useful. This feature will be used to identify reviews that are likely to be helpful in understanding the effectiveness and potential side effects of drugs for specific conditions.
 
 ## Project Summary:
-* Project aims to classify patient reviews related to specific conditions, including Depression, High Blood Pressure, and Type 2 Diabetes. The data was cleaned by removing stop words and normalization, and the date feature was removed as it was not deemed useful for model building. The TF-IDF vectorizer was used to convert the review text into numerical data, and multiple models, including Logistic Regression, Random Forest, SVM, Gradient Boosting, and Decision Tree, were built using the condition as the dependent variable and the review as the independent variable. Based on the model evaluation metrics, the SVM model was selected as the best model due to its highest accuracy.
-* Additionally, the project also recommended 10 popular drugs based on their ratings, but it was noted that the effects of drugs may vary from person to person, and the recommendations are general.
+* The project aims to classify patient's condition based on the reviews they provide.
+* The data was cleaned by removing stop words and performing normalization, and the date feature was excluded as it was deemed unhelpful for building the model.
+* To convert the review text into numerical data, the TF-IDF vectorizer was employed, and several models, including Logistic Regression, Random Forest, SVM, Gradient Boosting, and Decision Tree, were constructed, using the patient's condition as the dependent variable and the review as the independent variable.
+* The SVM model was selected as the best model based on the evaluation metrics, which demonstrated its superior accuracy.
+* The project also recommended 5 popular drugs based on their ratings; however, it was noted that individual drug effects may vary, and the recommendations should be considered general in nature.
 
 ## Conclusion: 
 * The project successfully predicted patient conditions based on drug reviews, and the insights gained can be used to recommend suitable drugs for patients based on their condition and the experiences of other patients with similar conditions. The project's findings provide valuable information to healthcare providers and patients alike in making informed decisions regarding drug usage.
