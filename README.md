@@ -1,4 +1,4 @@
-# Patient's-Condition-Classification
+# Patient's-Condition-Classification:
 
 ## Business Objective:
 The business objective of this project is to classify patient reviews related to specific conditions, namely Depression, High Blood Pressure, and Type 2 Diabetes. The goal is to understand the effectiveness of drugs for specific conditions and their potential side effects by analyzing patient reviews, ratings, and useful counts. The insights gained from this analysis can be used to recommend suitable drugs for patients based on their condition and the experiences of other patients with similar conditions.
